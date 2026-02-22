@@ -12,7 +12,7 @@ const milestones = [
     { days: 100, label: '100-Day Legend', emoji: '🏆', color: 'bg-accent-gold/20 border-accent-gold/40 text-accent-gold' },
 ]
 
-export default function StreakCard({ streak, multiplier, deadline }: StreakCardProps) {
+export default function StreakCard({ streak, multiplier, deadline: _deadline }: StreakCardProps) {
     const nextMilestone = milestones.find((m) => m.days > streak) || milestones[milestones.length - 1]
     const prevMilestone = milestones.filter((m) => m.days <= streak).pop()
     const progressStart = prevMilestone?.days ?? 0

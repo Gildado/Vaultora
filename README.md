@@ -5,7 +5,7 @@
 <!-- Logo placeholder -->
 <img src="https://img.shields.io/badge/StellarStreak-DeFi%20Savings-blueviolet?style=for-the-badge&logo=stellar&logoColor=white" alt="StellarStreak Logo" />
 
-<h1>⚡ Ventora</h1>
+<h1>⚡ Vaultora</h1>
 <h3>Gamified DeFi Savings Protocol on Stellar Soroban</h3>
 
 <p><em>Save consistently. Earn more. Level up.</em></p>
